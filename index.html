@@ -74,6 +74,16 @@
       color: #353535;
     }
 
+    td.links {
+      display: flex;
+      justify-content: center;
+    }
+
+    td.links p {
+      padding: 10px;
+    }
+
+    /*****  code for alternat copy
     ul.footer-content {
       font-family: sans-serif;
       margin-top: 0px;
@@ -92,6 +102,7 @@
       text-decoration: none;
 
     }
+    **********/
 
 
     @media screen and (max-width:600px) {
@@ -315,39 +326,45 @@
                   </td>
                 </tr>
               </table>
-          <tr>
-            <td>
-          <tr>
-            <td align="center" bgcolor="#1f2830" style="color:#ffffff;">
-
-              <ul class="footer-content">
-                <li>
-                  <a href="#">Unsubscribe</a>
-                </li>
-                <li>
-                  <a href="#">Email Preferences</a>
-                </li>
-                <li>
-                  <a href="#">Feedback</a>
-                </li>
-                <li>
-                  <a href="#">Privacy Policy</a>
-                </li>
-              </ul>
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                <tr>
+                  <td class="links">
+                    <p>Unsubscribe</p>
+                    <p>Email Preferences</p>
+                    <p>Feedback</p>
+                    <p>Privacy Policy</p>
+                  </td>
+                </tr>
+              </table>
 
             </td>
           </tr>
+        </table>
       </td>
     </tr>
-    </td>
-    </tr> <!--  footer ends  -->
-
-    </td>
-    </tr>
-  </table>
-  </td>
-  </tr>
   </table>
 </body>
 
 </html>
+
+<!--  code for alternate footer links 
+<tr>
+  <td align="center" bgcolor="#1f2830" style="color:#ffffff;">
+    <ul class="footer-content">
+      <li>
+        <a href="#">Unsubscribe</a>
+      </li>
+      <li>
+        <a href="#">Email Preferences</a>
+      </li>
+      <li>
+        <a href="#">Feedback</a>
+      </li>
+      <li>
+        <a href="#">Privacy Policy</a>
+      </li>
+    </ul>
+  </td>
+</tr> 
+</td>
+</tr>   footer ends  -->
