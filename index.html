@@ -73,15 +73,43 @@
       font-weight: 900;
       color: #353535;
     }
+
+    ul.footer-content {
+      font-family: sans-serif;
+      margin-top: 0px;
+      list-style-type: none;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    ul li {
+      display: inline-block;
+      padding: 10px;
+    }
+
+    .footer-content li a {
+      color: #ffffff;
+      text-decoration: none;
+
+    }
+
+
+    @media screen and (max-width:600px) {
+
+      .mobile {
+        width: 100% !important;
+      }
+    }
   </style>
 
 </head>
 
 <body style="margin:0 !important; padding:0 !important">
+
   <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
     <tr>
       <td>
-        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" role="presentation">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" role="presentation" class="mobile">
           <tr>
             <td style="background:#007aff">
               <!--  header -->
@@ -139,7 +167,8 @@
                 </tr>
                 <tr>
                   <td align="center" style="color:#ffffff; font-weight:600;">
-                    <p>Ireland: 8 days with air, hotel and car rental. Use promo code CFDL110 to save. Price reflects
+                    <p class="mobile">Ireland: 8 days with air, hotel and car rental. Use promo code CFDL110 to save.
+                      Price reflects
                       NYC
                       depature,
                       other cities available.</p>
@@ -183,7 +212,8 @@
                 </tr>
                 <tr>
                   <td align="center" style="color:#000000; font-weight:600;">
-                    <p>Cancun: 4 nights with air and Melody Maker Caancun stay. Price reflects MIA depature, othe cities
+                    <p class="mobile">Cancun: 4 nights with air and Melody Maker Caancun stay. Price reflects MIA
+                      depature, othe cities
                       available.</p>
                   </td>
                 </tr>
@@ -213,13 +243,14 @@
               <table align="center" bgcolor="#007aff" border="0" cellpadding="0" cellspacing="0" width="100%"
                 role="presentation">
                 <tr>
-                  <td align="center" style="color:#000000;padding-top:16px;font-weight:600;font-size:20px">
+                  <td align="center" style="color:#000000;padding-top:16px;font-weight:600;font-size:22px">
                     <p>Still looking? There's more</p>
                   </td>
                 </tr>
                 <tr>
                   <td align="center" style="color:#000000;font-size: 18px">
-                    <p>Search hundreds of deals to suit your budget on flights, Packages,cruises and more.</p>
+                    <p class="mobile">Search hundreds of deals to suit your budget on flights, Packages,cruises and
+                      more.</p>
                   </td>
                 </tr>
                 <tr>
@@ -232,9 +263,91 @@
                   </td>
                 </tr>
               </table><!--  end final deal-->
+
+              <!--  footer starts  -->
+          <tr>
+            <td bgcolor="#1f2830" style="padding:18px 10px 0px 10px;color:#ffffff">
+              <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="47%">
+                <tr>
+                  <td>
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                      <tr>
+                        <td align="left" style="padding-bottom:5px">
+                          <h3 style="margin:0;font-size: 16px;">Priceline</h3>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-bottom:5px">
+                          <p style="margin:0;font-size: 14px;">Download the app</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left">
+                          <p style="margin:0;font-size: 14px;">Cheap flights,hotels & more</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <table align="right" border="0" cellpadding="0" cellspacing="0" role="presentation" width="47%">
+                <tr>
+                  <td>
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                      <tr>
+                        <td align="right">
+                          <h3 style="margin:0;font-size: 16px;">Download</h3>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right">
+                          <h3 style="margin:0;font-size: 14px;">on the App Store</h3>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" style="padding:10px;">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtkO4W_Ta5Ye5shAyloiKqA2WdI5zW4ja6QR6fRrXjQqqsfMAtvg&s"
+                            alt="" width="60">
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+          <tr>
+            <td>
+          <tr>
+            <td align="center" bgcolor="#1f2830" style="color:#ffffff;">
+
+              <ul class="footer-content">
+                <li>
+                  <a href="#">Unsubscribe</a>
+                </li>
+                <li>
+                  <a href="#">Email Preferences</a>
+                </li>
+                <li>
+                  <a href="#">Feedback</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+              </ul>
+
             </td>
           </tr>
-        </table>
+      </td>
+    </tr>
+    </td>
+    </tr> <!--  footer ends  -->
+
+    </td>
+    </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
 </body>
 
 </html>
